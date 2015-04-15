@@ -1,4 +1,4 @@
-sliderResponsive
+sliderFull
 ================
 
-Slider responsive by desktop, tablet and mobile
+Slider with images full page
