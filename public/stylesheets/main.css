@@ -1,0 +1,106 @@
+/* line 3, ../sass/main.scss */
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* line 7, ../sass/main.scss */
+#principal {
+  width: 100% !important;
+  position: fixed;
+  padding: 0px;
+}
+
+/* line 12, ../sass/main.scss */
+#contminImgs {
+  width: 20% !important;
+  float: left;
+  height: 100%;
+  overflow: auto;
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  padding: 5px;
+  z-index: 0;
+}
+/* line 22, ../sass/main.scss */
+#contminImgs img {
+  width: 100% !important;
+  height: auto;
+  position: inherit;
+}
+/* line 27, ../sass/main.scss */
+#contminImgs .image {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+/* line 32, ../sass/main.scss */
+#contminImgs::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+/* line 36, ../sass/main.scss */
+#contminImgs::-webkit-scrollbar-thumb {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: inset 0 0 6px #fff;
+  -webkit-box-shadow: inset 0 0 6px #fff;
+  box-shadow: inset 0 0 6px #fff;
+  background-color: #555;
+}
+
+/* line 41, ../sass/main.scss */
+#contImgs {
+  width: 79% !important;
+  float: right;
+  height: 100%;
+  overflow: hidden;
+  background-color: #ccc;
+  position: fixed;
+  margin-left: 21.3% !important;
+  padding: 5px;
+}
+/* line 50, ../sass/main.scss */
+#contImgs img {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+}
+/* line 55, ../sass/main.scss */
+#contImgs .imageLarge {
+  height: 100%;
+}
+
+/* line 59, ../sass/main.scss */
+#title {
+  float: right;
+  width: 79% !important;
+  font-family: Arial;
+  text-align: center;
+  background-color: #000;
+  font-size: 15px;
+  padding: 10px 0px !important;
+  bottom: 0px !important;
+  position: fixed;
+  margin-left: 21% !important;
+  min-height: 18px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+/* line 72, ../sass/main.scss */
+#title .titles {
+  color: #fff;
+}
+
+/* line 76, ../sass/main.scss */
+.visible {
+  display: block;
+}
+
+/* line 79, ../sass/main.scss */
+.novisible {
+  display: none;
+}
